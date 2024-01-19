@@ -1,0 +1,125 @@
+/* .button {
+    background-color: #3b82f6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+} */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: default;
+    height: 190.4px;
+    width: 1050px;
+}
+
+.btn {
+    background-color: #3b82f6;
+    color: white;
+    padding: 4px 8px;
+    font-size: 30px;
+}
+
+.btn:hover {
+    background-color: rgb(37, 95, 235);
+    color: white;
+}
+
+.codeforces {
+    background-img: 'https://api.iconify.design/simple-icons/codeforces.svg?color=white';
+}
+
+img {
+    height: 36px;
+    width: 30px;
+}
+
+.paddinglogo {
+    padding-top: 0;
+    padding-bottom: 6px;
+}
+
+button {
+    margin: 4px;
+    border: 0.8px;
+}
+
+canvas {
+    /* border: 1px solid black; */
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+    margin-bottom: 1.5rem;
+}
+
+blockquote {
+    margin: 0
+}
+
+.text-6xl {
+    font-size: 3.75rem
+}
+
+.leading-none,
+.text-6xl {
+    line-height: 1
+}
+
+@media (min-width: 640px) {
+    .sm\:text-8xl {
+        font-size: 6rem;
+        line-height: 1
+    }
+}
+
+@media (min-width: 768px) {
+    .md\:text-9xl {
+        font-size: 8rem;
+        line-height: 1
+    }
+}
+
+@-webkit-keyframes tracking-in-contract-bck-top {
+    0% {
+        transform: scale(2) translateZ(400px) translateY(-300px);
+        opacity: 0
+    }
+
+    35% {
+        opacity: .6
+    }
+
+    80% {
+        transform: scale(1.2) translateZ(0) translateY(0);
+        opacity: 1
+    }
+}
+
+@keyframes tracking-in-contract-bck-top {
+    0% {
+        transform: scale(2) translateZ(400px) translateY(-300px);
+        opacity: 0
+    }
+
+    35% {
+        opacity: .6
+    }
+
+    80% {
+        transform: scale(1.2) translateZ(0) translateY(0);
+        opacity: 1
+    }
+}
+
+.tracking-in-contract-bck-top {
+    -webkit-animation: tracking-in-contract-bck-top .7s cubic-bezier(.215, .61, .355, 1) both;
+    animation: tracking-in-contract-bck-top .7s cubic-bezier(.215, .61, .355, 1) both
+}
